@@ -6,7 +6,12 @@ export default function Ex3() {
   return (
     <div className="my-8">
         <h1 className="text-2xl font-bold mb-4">Ex3 - Grid Simples</h1>
-      {/* Resolva aqui */}
+      {<div className="grid grid-cols-2 gap-6">
+        <div className="w-12 h-12 bg-gray-400 flex-1 min-h-[80px] flex"></div>
+        <div className="w-12 h-12 bg-gray-400 flex-1 min-h-[80px] flex"></div>
+        <div className="w-12 h-12 bg-gray-400 flex-1 min-h-[80px] flex"></div>
+        <div className="w-12 h-12 bg-gray-400 flex-1 min-h-[80px] flex"></div>
+        </div>}
     </div>
   );
 }
